@@ -6,25 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.practice.MainActivity">
     <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
     </android.support.v7.widget.RecyclerView>
-
-
-
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/seBtn"
-        android:background="@android:color/transparent"
-        android:src="@mipmap/ic_launcher"
-        android:scaleType="fitXY"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        />
-
-
 </RelativeLayout>
